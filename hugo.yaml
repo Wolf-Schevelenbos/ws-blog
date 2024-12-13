@@ -43,14 +43,14 @@ params:
   showtoc: false
   tocopen: false
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "/ws-blog/assets/icon/favicon.ico"
-    favicon16x16: "/ws-blog/assets/icon/favicon-16x16.png"
-    favicon32x32: "/ws-blog/assets/icon/favicon-32x32.png"
-    apple_touch_icon: "/ws-blog/assets/icon/apple-touch-icon.png"
-    safari_pinned_tab: "/ws-blog/assets/icon/logo.svg"
+  # assets:
+  #   # disableHLJS: true # to disable highlight.js
+  #   # disableFingerprinting: true
+  #   favicon: "/ws-blog/assets/icon/favicon.ico"
+  #   favicon16x16: "/ws-blog/assets/icon/favicon-16x16.png"
+  #   favicon32x32: "/ws-blog/assets/icon/favicon-32x32.png"
+  #   apple_touch_icon: "/ws-blog/assets/icon/apple-touch-icon.png"
+  #   safari_pinned_tab: "/ws-blog/assets/icon/logo.svg"
 
   label:
     text: "Wolf's blog"
