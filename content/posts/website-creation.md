@@ -41,50 +41,57 @@ editPost:
 
 ## Original blog
 
-This isn't my first try at making a blog. In fact, my previous version is still online [here](https://wolfschevelenbos.be/). It is empty, because I abandoned it.
+This isn't my first try at making a blog. In fact, my previous version is still floating around online [here](https://wolfschevelenbos.be/). It’s totally empty because, well, I gave up on it.
 
-![image of original blog](/ws-blog/assets/images/original-website.png#center)
+![image of original blog](/images/original-website.png#center)
 
-There is a good reason for that; namely it wasn't _me_ at all. It was a Wordpress website hosted on a Belgian host provider called combell. It is... not the best, if you'd ask me. It is poorly documented how to do anything else with it than host a simple website on it through a CMS other than Wordpress, Joomla or Drupal. However, from Howest, the university I attend, we received a free domain for it. So I tried it out, and didn't like the end result.
+Here’s the thing: that blog just wasn’t me. It was a WordPress site hosted on some Belgian provider called Combell. Honestly, not a fan. It’s fine if you’re sticking to basic CMS stuff like WordPress, Joomla, or Drupal, but anything beyond that? Good luck. The documentation is... not great. The only reason I used it in the first place was because Howest, the university I go to, gave us a free domain. So I gave it a shot and quickly decided it wasn’t worth the hassle.
 
-However, I love open-source projects. This wasn't it for me.
+Also, I’m a big fan of open-source projects, and this setup just didn’t cut it.
 
 ## Hugo framework
 
 > Hugo is an open-source static site generator designed for building fast, lightweight websites, particularly blogs or documentation. It is written in Go (Golang) and is known for its speed and flexibility.
 
-I got the idea to use Hugo for my blog from 2 YouTube videos which are listed below. My workflow ended up being a blend of these two and info I found in the documentation.
+I got the idea to use Hugo from two YouTube videos (linked below) and a quick explainer video. My workflow ended up being a mix of what I saw in those videos and some stuff I found in Hugo’s documentation.
 
-- [video 1]()
-- [video 2]()
+- [I started a blog.....in 2024 (why you should too)](https://www.youtube.com/watch?v=dnE7c0ELEH8&t=1681s)
+- [Getting Started With Hugo | FREE COURSE](https://www.youtube.com/watch?v=hjD9jTi_DQ4&t=2475s)
+- [Hugo in 100 Seconds](https://www.youtube.com/watch?v=0RKpf3rK57I)
 
-Designing a whole website through Vue or React seemed like overkill for this simple website. Hugo generates static HTML files from content written in the Markdown format, making it easy to create and deploy websites and posts without relying on a back-end server.
+Designing a whole website through Vue or React seemed like overkill for this simple website. Hugo generates static HTML from Markdown files, which makes it super easy to create and publish stuff without needing a back-end. That’s much more my speed, though I had to figure some things out along the way.
 
-That is much more my speed. However, it did require some figuring out.
+For starters, Hugo was completely new to me. If you’re interested, the [Hugo Documentation](https://gohugo.io/documentation/) has all the nitty-gritty details. I’ll keep it short here for those who don’t need a step-by-step guide.
 
-For one, it is a new framework to me. The exact setup guide can be found in the [Hugo Documentation](). I'll just briefly cover the process here anyways for those that need less hand-holding than the documentation provides.
+It comes down to installing prerequisites like Git, Go and Dart Sass. After that, I made sure my path variables were set so I could use those prerequisites from a powershell CLI (as I am working on Windows while at the university, sadly 🥲) and installed Hugo through `choco install hugo-extended`.
 
-It comes down to installing prerequisits like Git, Go and Dart Sass. After that, I double checked the path variables so I can use them from a powershell CLI (as I am working on Windows while at the university, sadly 🥲) and installed Hugo through `choco install hugo-extended`.
+![path variables](/images/path-variables.png#center)
 
-![path variables](../../assets/images/path-variables.png#center)
+The commands to use Hugo are pretty straight-forward. To get started: `hugo new site <my-website> --format yaml` sets up a new project using `.yaml` instead of the default `.toml` (because I’m less familiar with `.toml`).
 
-The commands to use Hugo are very straight-forward. `hugo new site ws-blog --format yaml` sets up a new project using `.yaml` instead of the default `.toml` extension, which I am less familiar with.
-
-Hugo has many _themes_ that can be found online, which convert markdown files to HTML with a certain layout. I installed one such theme, [PaperMod](), as a submodule. Doing it that way allows me to easily update to a later version if and when it comes out. It does require that I mirror its file structure if I want to overwrite its layout pages. Luckily, it seems mostly just fine as-is to me. I'm not a UI/UX fanatic, less front-end work is why I picked it after all.
+Hugo has a ton of _themes_ that can be found online to make your Markdown files look nice. I installed one such theme, [PaperMod](https://themes.gohugo.io/themes/hugo-papermod/), as a submodule. Doing it that way allows me to easily update to a later version if and when it comes out. It does require that I mirror its file structure if I want to overwrite some of the layout elements or pages. Luckily, it is mostly just fine as-is to me. I'm not a UI/UX fanatic, less front-end work is why I picked it after all.
 
 ```powershell
 >> git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 >> git submodule update --init --recursive
 ```
 
-For the pages I made an empty archetype with some default meta-data. The posts convert the filename to their title for instance, and always show the time they were created at. I can easily create new posts using `hugo new posts/website-creation.md -k post`.
+For the posts, I set up an empty archetype file with some default metadata. The posts convert the filename to their title for instance, and always show the time they were created at. I can easily create new posts using `hugo new posts/website-creation.md -k post`.
 
-Other pages like the [About Page]() I added manually.
+Other pages like the [About page](/about/) I added manually.
 
 ## Deployment
 
-When the basics of the site were finished, it was time to set up auto-deployment to the web. I synced it to a new github repository, then setup a pipeline with a domain hoster called "Netlify". It gives me 100 GB bandwidth for free, which should be more than enough for this blog in its current state.
+Once the site was up and running, it was time to figure out how to deploy it. I synced the project to a GitHub repository and set up a pipeline using [Netlify](https://app.netlify.com/). It gives me 100 GB of bandwidth for free, which is way more than this blog will ever need.
+
+I hooked up a webhook, so now the site redeploys automatically whenever I push changes to the main branch on GitHub.
+
+![deployment process](/images/deployment-process.png)
+
+If I ever decide I want a more custom URL, I could get it from Netlify too at a pretty fair price. I tried to set it up so the Combell address I got for my previous blog would refer to this one, but Combell clearly didn't intend for me to change DNS A-records and such, and the documentation was more than a little dated.
 
 ## Making new posts
 
-After all is set up, all I have to do now to create a new post is to create a markdown file. I then run `hugo server` to see what it looks like locally as a website & build the html with `hugo`. Finally, I just have to commit the changes and push to my github repository. Auto-deployment takes care of the rest.
+Now that everything’s set up, making a new post is a breeze. I just create a Markdown file, run `hugo server` to preview it locally, and then use `hugo` to build the HTML. After that, I commit the changes and push them to GitHub, and Netlify handles the deployment automatically.
+
+Setting up this blog was a fun little project, and I look forward to expanding it further while sharing my journey with you.
