@@ -1,5 +1,5 @@
 ---
-date: '2024-12-13T14:15:43+01:00'
+date: '2024-10-02T14:15:43+01:00'
 draft: true
 description: "This is my first post. It describes what my blog is about."
 title: 'Hello World'

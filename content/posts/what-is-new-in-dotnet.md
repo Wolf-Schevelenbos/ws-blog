@@ -1,12 +1,12 @@
 ---
-date: '2024-12-14T18:45:04+01:00'
+date: '2024-10-22T18:45:04+01:00'
 draft: true
 description: "This is a post about a talk about .NET by Starfisk"
 title: 'What Is New in Dotnet'
 
 # weight: 1
 # aliases: ["/first"]
-tags: ["tech"]
+tags: ["tech", "passive event"]
 author: "Wolf Schevelenbos"
 # author: ["Me", "You"] # multiple authors
 showToc: true
