@@ -76,7 +76,7 @@ Hugo has a ton of _themes_ that can be found online to make your Markdown files 
 >> git submodule update --init --recursive
 ```
 
-For the posts, I set up an empty archetype file with some default metadata. The posts convert the filename to their title for instance, and always show the time they were created at. I can easily create new posts using `hugo new posts/website-creation.md -k post`.
+For the posts, I set up an empty archetype file with some default metadata. The posts convert the filename to their title for instance, and always show the time they were created at. I can easily create new posts using `hugo new posts/<post-title>.md -k post`.
 
 Other pages like the [About page](/about/) I added manually.
 
