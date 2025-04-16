@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Wolf&#39;s Blog</description>
     <generator>Hugo -- 0.139.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Dec 2024 18:17:54 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2025 21:41:54 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visug</title>
+      <link>http://localhost:1313/posts/visug/</link>
+      <pubDate>Thu, 27 Feb 2025 21:41:54 +0200</pubDate>
+      <guid>http://localhost:1313/posts/visug/</guid>
+      <description>A post about joining an event by The Belgian Visual Studio User Group</description>
+    </item>
     <item>
       <title>Website Creation</title>
       <link>http://localhost:1313/posts/website-creation/</link>
