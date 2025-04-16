@@ -80,7 +80,7 @@ For the demo, the speaker successfully create a RAG implentation which supplied 
 
 > By Pieter Samyn
 
-This talk was specific to .NET and went over the advantages of combining the `IOptions` pattern with `IConfig` to create a more dry setup for your project's settings.
+This talk was specific to .NET and went over the advantages of combining the `IOptions` pattern with `IConfig` to create a more DRY setup (a.k.a. without repeating yourself) for your project's settings. This talk was fairly technical, but I'll do my best to explain it as simple as I am able to.
 
 `IOptions` and `IConfig` are interfaces in .NET used for accessing app settings:
 
