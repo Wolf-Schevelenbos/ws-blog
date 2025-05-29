@@ -75,7 +75,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there 👋"
-    Content: Welcome to my blog. I post about recent events and activities in my life relating to my interests. If you want to know more about me and this blog, check out my first blog post. You should be able to find it pretty easily by looking for the tag "first".
+    Content: Welcome to my blog! I post about recent events and activities in my life relating to my technology. If you want to know more about me and this blog, check out the about page, or look through the tags through the menu bar at the top.
 
   socialIcons:
     - name: linkedin

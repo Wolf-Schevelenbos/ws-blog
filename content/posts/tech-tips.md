@@ -1,6 +1,6 @@
 ---
 date: '2025-04-16T18:50:34+02:00'
-draft: true
+draft: false
 description: "A collection of small software tips"
 title: 'Tech Tips'
 
@@ -67,7 +67,7 @@ AI has boosted the speed at which we write code (and bugs) by a factor ten. A go
 
 It is the open-source version of VSCode that Microsoft originally claimed it was. It strips said program of all telemitry and adds the free-to-use Windsurf AI. It's really well-maintained and I much prefer it over VSCode.
 
-## Windows
+## Windows OS
 
 Windows 11 has become a pain to use in many aspects for young developers. For one thing: it is bloated with software we never use. Instead of deleting it one-by-one (a futile endeavour), run a **good debloat utility** like [this one from chris titus](https://christitus.com/windows-tool/). You will never have to worry again about OneNote trying to sync docker or VMware files behind your back.
 

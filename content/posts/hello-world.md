@@ -6,7 +6,7 @@ title: 'Hello World'
 
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["first post"]
 author: "Wolf Schevelenbos"
 # author: ["Me", "You"] # multiple authors
 showToc: true

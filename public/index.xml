@@ -2,59 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Wolf&#39;s Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://wolfschevelenbos.netlify.app/</link>
     <description>Recent content on Wolf&#39;s Blog</description>
     <generator>Hugo -- 0.139.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Feb 2025 21:41:54 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 May 2025 18:30:00 +0200</lastBuildDate>
+    <atom:link href="https://wolfschevelenbos.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event Sourcing and CQRS for Dummies</title>
+      <link>https://wolfschevelenbos.netlify.app/posts/event-sourcing-and-cqrs-for-dummies/</link>
+      <pubDate>Tue, 27 May 2025 18:30:00 +0200</pubDate>
+      <guid>https://wolfschevelenbos.netlify.app/posts/event-sourcing-and-cqrs-for-dummies/</guid>
+      <description>Speaker Kim Van Renterghem appeared in a public event at Howest, which was organized by Ryan Quivy and myself.</description>
+    </item>
+    <item>
+      <title>Tech Tips</title>
+      <link>https://wolfschevelenbos.netlify.app/posts/tech-tips/</link>
+      <pubDate>Wed, 16 Apr 2025 18:50:34 +0200</pubDate>
+      <guid>https://wolfschevelenbos.netlify.app/posts/tech-tips/</guid>
+      <description>A collection of small software tips</description>
+    </item>
     <item>
       <title>Visug</title>
-      <link>http://localhost:1313/posts/visug/</link>
+      <link>https://wolfschevelenbos.netlify.app/posts/visug/</link>
       <pubDate>Thu, 27 Feb 2025 21:41:54 +0200</pubDate>
-      <guid>http://localhost:1313/posts/visug/</guid>
+      <guid>https://wolfschevelenbos.netlify.app/posts/visug/</guid>
       <description>A post about joining an event by The Belgian Visual Studio User Group</description>
     </item>
     <item>
       <title>Website Creation</title>
-      <link>http://localhost:1313/posts/website-creation/</link>
+      <link>https://wolfschevelenbos.netlify.app/posts/website-creation/</link>
       <pubDate>Fri, 13 Dec 2024 18:17:54 +0100</pubDate>
-      <guid>http://localhost:1313/posts/website-creation/</guid>
+      <guid>https://wolfschevelenbos.netlify.app/posts/website-creation/</guid>
       <description>In this blog post I go over how I created the website you&amp;#39;re now reading from.</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://wolfschevelenbos.netlify.app/about/</link>
       <pubDate>Fri, 13 Dec 2024 18:03:33 +0100</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://wolfschevelenbos.netlify.app/about/</guid>
       <description>about</description>
     </item>
     <item>
       <title>AI - the Reality Hidden Behind the Hype</title>
-      <link>http://localhost:1313/posts/ai-reality-hidden-behind-the-hype/</link>
+      <link>https://wolfschevelenbos.netlify.app/posts/ai-reality-hidden-behind-the-hype/</link>
       <pubDate>Tue, 10 Dec 2024 12:32:29 +0100</pubDate>
-      <guid>http://localhost:1313/posts/ai-reality-hidden-behind-the-hype/</guid>
+      <guid>https://wolfschevelenbos.netlify.app/posts/ai-reality-hidden-behind-the-hype/</guid>
       <description>This is a post about Wim Delvaux&amp;#39;s reality check on AI</description>
     </item>
     <item>
       <title>Hack the Future</title>
-      <link>http://localhost:1313/posts/hack-the-future/</link>
+      <link>https://wolfschevelenbos.netlify.app/posts/hack-the-future/</link>
       <pubDate>Tue, 19 Nov 2024 16:42:56 +0100</pubDate>
-      <guid>http://localhost:1313/posts/hack-the-future/</guid>
+      <guid>https://wolfschevelenbos.netlify.app/posts/hack-the-future/</guid>
       <description>This is a post about participating in a hackaton.</description>
     </item>
     <item>
       <title>What Is New in Dotnet</title>
-      <link>http://localhost:1313/posts/what-is-new-in-dotnet/</link>
+      <link>https://wolfschevelenbos.netlify.app/posts/what-is-new-in-dotnet/</link>
       <pubDate>Tue, 22 Oct 2024 18:45:04 +0100</pubDate>
-      <guid>http://localhost:1313/posts/what-is-new-in-dotnet/</guid>
+      <guid>https://wolfschevelenbos.netlify.app/posts/what-is-new-in-dotnet/</guid>
       <description>This is a post about a talk about .NET by Starfisk</description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>https://wolfschevelenbos.netlify.app/posts/hello-world/</link>
       <pubDate>Wed, 02 Oct 2024 14:15:43 +0100</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <guid>https://wolfschevelenbos.netlify.app/posts/hello-world/</guid>
       <description>This is my first post. It describes what my blog is about.</description>
     </item>
   </channel>

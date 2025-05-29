@@ -2,52 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://wolfschevelenbos.netlify.app/posts/event-sourcing-and-cqrs-for-dummies/</loc>
+    <lastmod>2025-05-27T18:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://wolfschevelenbos.netlify.app/posts/</loc>
+    <lastmod>2025-05-27T18:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://wolfschevelenbos.netlify.app/tags/pr-event/</loc>
+    <lastmod>2025-05-27T18:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://wolfschevelenbos.netlify.app/tags/</loc>
+    <lastmod>2025-05-27T18:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://wolfschevelenbos.netlify.app/tags/tech/</loc>
+    <lastmod>2025-05-27T18:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://wolfschevelenbos.netlify.app/</loc>
+    <lastmod>2025-05-27T18:30:00+02:00</lastmod>
+  </url><url>
+    <loc>https://wolfschevelenbos.netlify.app/posts/tech-tips/</loc>
+    <lastmod>2025-04-16T18:50:34+02:00</lastmod>
+  </url><url>
+    <loc>https://wolfschevelenbos.netlify.app/posts/visug/</loc>
     <lastmod>2025-02-27T21:41:54+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-02-27T21:41:54+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tech/</loc>
-    <lastmod>2025-02-27T21:41:54+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/visug/</loc>
-    <lastmod>2025-02-27T21:41:54+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-27T21:41:54+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/website-creation/</loc>
+    <loc>https://wolfschevelenbos.netlify.app/posts/website-creation/</loc>
     <lastmod>2024-12-13T18:17:54+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://wolfschevelenbos.netlify.app/about/</loc>
     <lastmod>2024-12-13T18:03:33+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ai-reality-hidden-behind-the-hype/</loc>
+    <loc>https://wolfschevelenbos.netlify.app/posts/ai-reality-hidden-behind-the-hype/</loc>
     <lastmod>2024-12-10T12:32:29+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/passive-event/</loc>
+    <loc>https://wolfschevelenbos.netlify.app/tags/passive-event/</loc>
     <lastmod>2024-12-10T12:32:29+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/active-event/</loc>
+    <loc>https://wolfschevelenbos.netlify.app/tags/active-event/</loc>
     <lastmod>2024-11-19T16:42:56+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hack-the-future/</loc>
+    <loc>https://wolfschevelenbos.netlify.app/posts/hack-the-future/</loc>
     <lastmod>2024-11-19T16:42:56+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/what-is-new-in-dotnet/</loc>
+    <loc>https://wolfschevelenbos.netlify.app/posts/what-is-new-in-dotnet/</loc>
     <lastmod>2024-10-22T18:45:04+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/first/</loc>
+    <loc>https://wolfschevelenbos.netlify.app/tags/first-post/</loc>
     <lastmod>2024-10-02T14:15:43+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hello-world/</loc>
+    <loc>https://wolfschevelenbos.netlify.app/posts/hello-world/</loc>
     <lastmod>2024-10-02T14:15:43+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://wolfschevelenbos.netlify.app/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://wolfschevelenbos.netlify.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://wolfschevelenbos.netlify.app/search/</loc>
   </url>
 </urlset>
