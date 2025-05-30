@@ -27,10 +27,10 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
+    image: "/images/pr-event.png" # image path/url
+    alt: "Speaker Kim Van Renterghem in front of the audience" # alt text
     linkFullImage: true # click image to open it at full size
-    caption: "<text>" # display caption under cover
+    caption: "Speaker Kim Van Renterghem in front of the audience" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
@@ -42,8 +42,6 @@ editPost:
 As part of my university curriculum, I organized a public relations event at Howest featuring Kim Van Renterghem, a specialist I had the pleasure of meeting during my internship at ZF. The event, titled "Event Sourcing & CQRS for Dummies," provided an in-depth exploration of these advanced software design patterns. 
 
 Here's a detailed recap of the key insights shared during the session.
-
-![Kim Van Renterghem in front of the audience](/images/pr-event.png)
 
 ## Traditional Systems and Their Limitations
 

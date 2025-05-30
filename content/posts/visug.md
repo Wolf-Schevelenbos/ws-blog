@@ -27,10 +27,10 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
+    image: "/images/visug.jpeg" # image path/url
+    alt: "Preparation of a talk at Visug" # alt text
     linkFullImage: true # click image to open it at full size
-    caption: "<text>" # display caption under cover
+    caption: "Preparation of a talk at Visug" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
@@ -49,8 +49,6 @@ This event consisted of two talks:
 - IConfig & IOptions
 
 The latter was given by Pieter Samyn, my mentor on my current internship at ZF. I'm thankful he mentioned that he was going to give said talk, as otherwise I wouldn't have known the event even existed. It was a rather small event, with some estimated 15-25 people present.
-
-![talk preparation at VISUG](/images/visug.jpeg)
 
 Afterwards, there was also the opportunity to stick around and network. That was quite valuable for me, as I got to meet some higly specialised .NET experts and had some educational conversations.
 
